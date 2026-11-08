@@ -11,7 +11,16 @@ description: |
   学术论文方向的去 AI 味技能（中英双语）。整合两套方法论：① 英文学术六层法（通用 AI-tell 目录 → 学术专项 tells → 保留学术惯例 → claim↔evidence 纪律 → 声音与期刊/会议匹配 → NSF/NIH 基金申请模式），守住"每个主张都要挂证据、动词不得强于证据"；② 中文实测校准（知网/万方/维普/朱雀/BestPaper/论文狗 四档敏感维度），针对中文论文特有的摘要八股、理论排比、年表平铺、分类对称、统计分组对称、拔高尾巴、政策建议"并…并…"排比逐条给改法。
   用于：中文学位论文（本/硕/博）、中文期刊投稿、英文期刊/会议投稿、基金申请书（NSF/NIH/国自然）、rebuttal 与 response。不做公文、月报、公众号与营销文案（那些走 humanizer-zh-pro / human-writing）。
   触发词：论文去AI、学位论文降AI、期刊投稿去AI味、摘要八股、论文润色去AI腔、投稿前检查AI率、academic humanizer、grant proposal 润色、claim evidence 检查。
+examples_zh:
+  - "这篇硕士论文的摘要和结论去AI味，学校用万方检测，报告里结论段标红62%"
+  - "英文论文 related work 去AI味，投ICLR，引文一个别动"
+  - "润色NSF Project Summary，愿景别删，但每个大胆主张都要有可行性落脚"
+examples_en:
+  - "Humanize this thesis abstract and conclusion; our school uses Wanfang, the conclusion scored 62%"
+  - "Humanize the related work for an ICLR submission; keep every citation"
+  - "Polish this NSF Project Summary: keep the vision, but back every bold claim with feasibility"
 license: MIT
+author: sin0317
 allowed-tools:
   - Read
   - Write
