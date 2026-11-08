@@ -2,6 +2,20 @@
 
 学术论文专用。把 AI 辅助写出来的论文改回能过同行评审的样子：句子清楚，声音是作者自己的，每个主张都挂得住证据——而数字、公式、引文一个没动。
 
+## 安装
+
+纯 `SKILL.md` 加参考文件，无依赖、不用装任何包。克隆到 agent 的技能目录即可：
+
+```bash
+# WorkBuddy（用户级，全局可用）
+git clone https://github.com/sin0317/academic-humanizer ~/.workbuddy/skills/academic-humanizer
+
+# Claude Code
+git clone https://github.com/sin0317/academic-humanizer ~/.claude/skills/academic-humanizer
+```
+
+装完重开会话就会被识别。更新用 `git pull`。Codex / 其他支持 `SKILL.md` 的 agent，直接指向仓库根目录的 `SKILL.md` 也可以。
+
 ## 这个技能解决什么
 
 通用的"去 AI 味"工具是为博客和营销写的。把它们丢给一篇论文或一份基金申请书，精确性会跟着 AI 腔一起被铲平：该保留的对冲被删，该保留的术语被换，"the results suggest X" 被改成 "the results prove X"（这是在**制造**过度主张）。
