@@ -46,6 +46,8 @@ git clone https://github.com/sin0317/academic-humanizer ~/.claude/skills/academi
 ```
 academic-humanizer/
 ├── SKILL.md                              主文件：边界、铁律、流程、中英两侧规则、交付格式
+├── 使用指南.md                            装法、触发词、交付物、三条最容易踩的坑、FAQ
+├── 开发者声明.md                          内容来源与许可、安全隐私、边界与免责
 ├── references/
 │   ├── detector-calibration-zh.md        中文检测器校准档案（四档证据、标红机制、2026 阈值）
 │   └── academic-tells-bilingual.md       中英 AI 痕迹对照词表 + 结构清单 + Grep 可扫字面清单
